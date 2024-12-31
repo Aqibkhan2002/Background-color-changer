@@ -1,0 +1,67 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+body{
+    
+    height:600px;
+    overflow-y: hidden;
+}
+
+.container{
+    height: 600px;
+    display:flex;
+    justify-content: center;
+    align-items: flex-end;
+    gap:10px;
+}
+
+.content{
+     display: flex;
+     width:fit-content;
+     gap:15px;
+     box-shadow:rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+     border-radius: 10px;
+     padding:20px;
+     background-color: white;
+}
+
+.btn{
+      padding-top:5px;
+      padding-bottom: 5px;
+      padding-left: 15px;
+      padding-right: 15px;
+      border-radius: 5px;
+      cursor: pointer;
+}
+
+.btn:hover{
+    
+    transform: scale(1.1);
+}
+
+.red{
+    background-color: red;
+}
+.blue{
+    background-color: blue;
+}
+.green{
+    background-color: green;
+}
+.black{
+    background-color: black;
+    color: white;
+}
+.pink{
+    background-color: pink;
+}
+
+
+
+
+
+
+
